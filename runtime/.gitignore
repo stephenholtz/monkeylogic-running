@@ -1,0 +1,16 @@
+# This folder should not be pushed to the repository, but still preserved
+*.m
+*.mat
+
+# Also don't sync other matlab / OS specific files
+# Windows default autosave extension
+*.asv
+# OSX / *nix default autosave extension
+*.m~
+# Compiled MEX binaries (all platforms)
+*.mex*
+# Simulink Code Generation	
+slprj/
+# OSX
+.DS_Store
+.DS_Store?
